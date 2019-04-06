@@ -6,10 +6,16 @@
 
 [こちら](https://unityroom.com/games/tocotoco)でプレイできます
 
+## 使い方
+
+- プロジェクトを開いて `App/Main.unity` を開く
+- ゲームには下記の素材を使用させていただておりますが、リポジトリにデータが含まれていません。別途ダウンロードしてプロジェクトにインポートする必要があります。
+
 ## 素材
 
-ゲームには下記の素材を使用させていただておりますが、リポジトリにデータは含まれていません。別途ダウンロードしてプロジェクトにインポートする必要があります。
-
 - DOTween (HOTween v2) https://www.assetstore.unity3d.com/#!/content/27676
+  - アセットストアからインポートして `Setup DOTween...` をクリック
 - NotoSans https://www.google.com/get/noto/help/cjk/
+  - Canvas以下のテキストコンポーネントの`Missing (Font)`となっている部分にフォントを適用
 - 効果音ラボ https://soundeffect-lab.info/
+  - `Scripits -> Sound Manager` の `Missing (Audio Clip)`となっている部分にオーディオを適用
